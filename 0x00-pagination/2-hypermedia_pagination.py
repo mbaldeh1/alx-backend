@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Hypermedia pagination sample.
+"""
+Task 2: Hypermedia pagination
 """
 import csv
+from typing import List, Tuple, Dict
 import math
-from typing import Dict, List, Tuple
 
 
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
